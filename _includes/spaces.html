@@ -1,0 +1,75 @@
+<!-- <div id="home">
+  <h2>ajil.space</h2>
+  <div class="posts"> -->
+  	<div class="grid-container">
+    {% for space in site.spaces %}
+
+    <div class="grid-item">
+		<div class="flex-apart">
+	      	<h3 class="space-name">{{ space.name }}</h3>
+	      	<a class="icon-link" href={{ space.page }} target="_blank"></a>
+	    </div>
+     	<div class="type">
+     		{% if space.type == 'Coffee Shop' %} ☕️
+     		{% elsif space.type == 'Coworking Space' %} 🚀
+	     	{% elsif space.type == 'Cafe Bar' %} 🍺
+            {% elsif space.type == 'Restaurant' %} 🍽
+            {% elsif space.type == 'Bakery' %} 🍰
+	     	{% else %}
+	     	{% endif %} 
+	     	{{ space.type }}
+	 	</div>
+
+     	<div class="flex-apart">
+     		<div class="location">
+     			<div class="icon-pin"></div> 
+     			{{ space.location }}
+     		</div>
+     		<a class="icon-direction" href={{ space.map }} target="_blank"></a>
+     	</div>
+
+     	<div class="flex-apart">
+     		<div class="time-table">
+     			<div class="icon-clock"></div> 
+     			{{ space.schedule }}
+     		</div>
+     		<a class="icon-phone" href={{ space.tel }}></a>
+     	</div>
+
+     	<div class="divider"><hr/></div>
+
+     	<div class="amenities">
+     		<div class="amenities-content">
+     			<div class="icon-outlet"></div>
+		     		{% if space.outlet == 'none' %} 
+		     			<span class="bold">Залгуур байхгүй</span> 
+		     			<div class="bulb-r"></div>
+		     		{% elsif space.outlet == 'some' %} 
+			     		<span class="bold">Залгуур цөөн</span>
+			     		<div class="bulb-y"></div>
+		     		{% elsif space.outlet == 'many' %} 
+			     		<span class="bold">Залгуур элбэг</span>
+			     		<div class="bulb-g"></div>
+			     	{% else %}
+		     		{% endif %}
+     		</div>
+     	
+	     	<div class="amenities-content">
+	     		<div class="icon-wifi"></div>
+	     			<span class="bold">{{ space.speed }}мб/с</span>
+  					{% if space.speed >= 1 and space.speed <= 1.9 %}
+	     				<div class="bulb-r"></div>
+	     			{% elsif space.speed >= 2 and space.speed <= 3.9 %}
+	     				<div class="bulb-y"></div>
+	     			{% elsif space.speed >= 4 %}
+	     				<div class="bulb-g"></div>
+	     			{% else %}
+	     				Wi-Fi байхгүй &nbps<div class="bulb-r"></div>
+	     			{% endif %}
+	     	</div>
+     	</div> 
+    </div>
+    {% endfor %}
+    </div>
+<!--   </div>
+</div> -->

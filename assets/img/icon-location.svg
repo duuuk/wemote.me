@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="16px" viewBox="0 0 11 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-location</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-location" transform="translate(-2.000000, 0.000000)">
+            <polygon id="Stroke-1" points="0 0 15.999999 0 15.999999 15.999999 0 15.999999"></polygon>
+            <path d="M12.2142857,4.79999999 C12.2142857,2.15200004 10.1007139,0 7.50000001,0 C4.89928614,0 2.78571429,2.15200004 2.78571429,4.79999999 C2.78571429,8.39999999 7.50000001,13.6 7.50000001,13.6 C7.50000001,13.6 12.2142857,8.39999999 12.2142857,4.79999999 Z M5.92857144,4.79999999 C5.92857144,3.92000007 6.63571397,3.2 7.50000001,3.2 C8.36428596,3.2 9.07142857,3.92000007 9.07142857,4.79999999 C9.07142857,5.68000031 8.37214255,6.4 7.50000001,6.4 C6.63571397,6.4 5.92857144,5.68000031 5.92857144,4.79999999 Z M2,14.3999999 L2,16 L13,16 L13,14.3999999 L2,14.3999999 Z" id="Fill-2" fill="#00009C" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

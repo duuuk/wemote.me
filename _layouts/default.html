@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#16c775"/>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+    </head>
+    <body>
+
+        <nav> 
+            <div class="logo">wemote.me<div class="blink"></div></div>
+            <a href="https://duuuk.typeform.com/to/Fg1RxN" target="_blank" class="submit">Санал болгох</a>
+            <a href="https://duuuk.typeform.com/to/Fg1RxN" target="_blank" class="submit s">Нэмэх</a>
+        </nav>
+
+        {{ content }}
+
+        <footer><span class="made">Made in Ulaanbaatar with ❤️ by&nbsp<a href="https://dribbble.com/duuuk" target="_blank" style="text-decoration: underline;">duuuk</a></span><span class="powered">Powered by ☕️ & 🧪</span></footer>
+
+    </body>
+
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('../sw.js')
+                   .then(function() { console.log("Service Worker Registered"); });
+        }
+    </script>
+    <script src="https://embed.small.chat/TEU3YNG7JGEURNBGF4.js" async></script>
+</html>

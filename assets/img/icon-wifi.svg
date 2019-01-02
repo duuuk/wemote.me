@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="11px" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-wifi</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-wifi" transform="translate(0.000000, -2.000000)">
+            <polygon id="Stroke-1" points="0 0 15.999999 0 15.999999 15.999999 0 15.999999"></polygon>
+            <path d="M0,5.21990032 L1.45454546,6.63446387 C5.0690911,3.11927321 10.9309081,3.11927321 14.5454545,6.63446387 L16,5.21990032 C11.5854548,0.926699894 4.42181813,0.926699894 0,5.21990032 Z M5.81818182,10.8781546 L8.00000002,13 L10.1818182,10.8781546 C8.98181841,9.70406695 7.02545444,9.70406695 5.81818182,10.8781546 Z M2.90909091,8.04902746 L4.36363637,9.46359105 C6.37090925,7.51149313 9.62909067,7.51149313 11.6363637,9.46359105 L13.0909091,8.04902746 C10.2836366,5.31892001 5.72363628,5.31892001 2.90909091,8.04902746 Z" id="Fill-2" fill="#00009C" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

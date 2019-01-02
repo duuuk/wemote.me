@@ -1,0 +1,238 @@
+body 
+  background-color: white
+  font-size: 14px
+  line-height: 1.6
+  font-family: 'PT Mono', monospace;
+  color: $darkblue
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+  max-width: 960px
+  margin-left: auto
+  margin-right: auto
+  padding-left: 4%
+  padding-right: 4%
+  padding-bottom: 180px
+  padding-top: 40px
+
+nav
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  .logo
+    display: flex
+    font-size: 27px
+    font-weight: bold
+    margin-bottom: 32px
+  .blink 
+    display: inline-block
+    height: 30px
+    width: 14px
+    margin-top: 5px
+    margin-left: 4px
+    border-radius: 2px
+    background-color: $seagreen
+    animation: blink-animation 1s steps(2, start) infinite
+    @keyframes blink-animation
+      to 
+        visibility: hidden
+
+  .submit
+    display: flex
+    padding: 8px 24px 8px 24px
+    border: 1px solid $darkblue
+    border-radius: 4px
+    font-weight: bold
+    color: $darkblue
+    transition: 0.2s
+  .submit.s
+    display: none
+  .submit:hover
+    color: white
+    background-color: $darkblue
+    border: 1px solid $darkblue
+
+footer
+  margin-top: 104px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  .made
+    display: flex
+    margin-left: auto
+    margin-right: auto
+  .powered
+    display: flex
+    margin-left: auto
+    margin-right: auto
+
+.grid-container
+  display: grid
+  grid-column-gap: 20px
+  grid-row-gap: 20px
+  grid-template-columns: 1fr 1fr 1fr
+
+.footer
+  clear: both
+
+.grid-item 
+  flex-direction: column
+  position: relative
+  height: auto
+  padding: 32px
+  background-color: white
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
+  border-radius: 8px
+  transition: 0.2s
+  .flex-apart
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
+    flex-direction: row
+    margin-bottom: 12px
+    text-align: left
+    .space-name
+      display: inline-block
+      margin-bottom: 0px
+      margin-top: 0px
+      height: 22px
+      border-bottom: 8px solid $seagreen
+    .icon-link
+      width: 20px
+      height: 20px
+      overflow: hidden
+      margin-right: 0px
+      margin-left: auto
+      padding-top: 10px
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-link.svg)  
+      opacity: 0.3
+      transition: 0.3s
+    .icon-link:hover
+      opacity: 1
+    .icon-direction
+      width: 16px
+      height: 16px
+      overflow: hidden
+      margin-right: 0px
+      margin-left: auto
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-w3w.svg)  
+      opacity: 0.3
+      transition: 0.3s
+    .icon-direction:hover
+      opacity: 1
+    .icon-phone
+      width: 12px
+      height: 12px
+      overflow: hidden
+      margin-right: 0px
+      margin-left: auto
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-tel.svg)  
+      opacity: 0.3
+      transition: 0.3s
+    .icon-phone:hover
+      opacity: 1
+    .icon-clock
+      width: 12px
+      height: 12px
+      overflow: hidden
+      margin-right: 8px
+      padding-top: 10px
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-sched.svg)
+    .icon-pin
+      width: 10px
+      height: 12px
+      overflow: hidden
+      padding-top: 8px
+      margin-right: 10px
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-location.svg)
+    .time-table
+      display: flex
+    .location
+      display: flex
+  .amenities
+    display: flex
+    justify-content: flex-start
+    flex-direction: column
+  .amenities-content
+    display: flex
+    justify-content: flex-start
+    flex-direction: row
+    margin-top: 16px
+    .icon-outlet
+      width: 20px
+      height: 20px
+      overflow: hidden
+      display: block
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-outlet.svg)
+      background-repeat: no-repeat
+      margin-right: 16px
+    .icon-wifi
+      display: flex
+      width: 20px
+      height: 20px
+      overflow: hidden
+      background-size: 100% 100%
+      background-image: url(/assets/img/icon-wifi.svg)
+      margin-right: 16px
+    .bulb-g
+      width: 16px
+      height: 16px
+      display: block
+      background-size: 100% 100%
+      background-image: url(/assets/img/bulb-g.svg)
+      background-repeat: no-repeat
+      margin-left: 8px
+      margin-top: 2px
+    .bulb-y
+      width: 16px
+      height: 16px
+      display: block
+      background-size: 100% 100%
+      background-image: url(/assets/img/bulb-y.svg)
+      background-repeat: no-repeat
+      margin-left: 8px
+      margin-top: 2px
+    .bulb-r
+      width: 16px
+      height: 16px
+      display: block
+      background-size: 100% 100%
+      background-image: url(/assets/img/bulb-r.svg)
+      background-repeat: no-repeat
+      margin-left: 8px
+      margin-top: 2px
+    .bold
+      font-weight: bold
+  .type
+    margin-bottom: 24px
+.divider
+  display: block
+  width: 100%
+  height: 1px
+  background: #f3f3f3
+  margin-top: 24px
+  margin-bottom: 24px
+.grid-item:hover
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
+@media screen and (min-width: 768px) and (max-width: 992px)
+  .grid-container
+    grid-template-columns: 1fr 1fr
+
+@media screen and (min-width: 580px) and (max-width: 767px)
+  .grid-container
+    grid-template-columns: 1fr 1fr
+
+@media screen and (min-width: 240px) and (max-width: 579px)
+  .grid-container
+    grid-template-columns: 1fr
+  nav
+    .submit
+      display: none
+    .submit.s
+      display: flex
+      padding: 6px 24px 6px 24px
