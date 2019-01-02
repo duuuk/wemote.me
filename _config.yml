@@ -1,7 +1,14 @@
 name: wemote.me
-baseurl: {{ site.baseurl }}
+description: A collection of free spaces to work online
+author: duuuk
+github_source: "https://github.com/duuuk/wemote.me"
 markdown: redcarpet
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+website: wemote.me
+
+baseurl: wemote.me
+
 collections: 
   - spaces
