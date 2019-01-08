@@ -1,8 +1,8 @@
 ---
-name:  Super Size
+name:  Super Size #1
 type: Coffee Shop
 location: УИД ээс Цирк явах замд
-schedule: Да-Ня 9-22
+schedule: Да-Ня 7-23
 speed: 5
 outlet: some
 page: https://www.facebook.com/supersizecoffeemongolia
