@@ -309,7 +309,7 @@ footer {
       margin-left: auto;
       padding-top: 10px;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-link.svg);
+      background-image: url(/wemote.me/assets/img/icon-link.svg);
       opacity: 0.3;
       transition: 0.3s; }
     .grid-item .flex-apart .icon-link:hover {
@@ -321,7 +321,7 @@ footer {
       margin-right: 0px;
       margin-left: auto;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-w3w.svg);
+      background-image: url(/wemote.me/assets/img/icon-w3w.svg);
       opacity: 0.3;
       transition: 0.3s; }
     .grid-item .flex-apart .icon-direction:hover {
@@ -333,7 +333,7 @@ footer {
       margin-right: 0px;
       margin-left: auto;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-tel.svg);
+      background-image: url(/wemote.me/assets/img/icon-tel.svg);
       opacity: 0.3;
       transition: 0.3s; }
     .grid-item .flex-apart .icon-phone:hover {
@@ -345,7 +345,7 @@ footer {
       margin-right: 8px;
       padding-top: 10px;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-sched.svg); }
+      background-image: url(/wemote.me/assets/img/icon-sched.svg); }
     .grid-item .flex-apart .icon-pin {
       width: 10px;
       height: 12px;
@@ -353,7 +353,7 @@ footer {
       padding-top: 8px;
       margin-right: 10px;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-location.svg); }
+      background-image: url(/wemote.me/assets/img/icon-location.svg); }
     .grid-item .flex-apart .time-table {
       display: -ms-flexbox;
       display: flex; }
@@ -381,7 +381,7 @@ footer {
       overflow: hidden;
       display: block;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-outlet.svg);
+      background-image: url(/wemote.me/assets/img/icon-outlet.svg);
       background-repeat: no-repeat;
       margin-right: 16px; }
     .grid-item .amenities-content .icon-wifi {
@@ -391,14 +391,14 @@ footer {
       height: 20px;
       overflow: hidden;
       background-size: 100% 100%;
-      background-image: url(/assets/img/icon-wifi.svg);
+      background-image: url(/wemote.me/assets/img/icon-wifi.svg);
       margin-right: 16px; }
     .grid-item .amenities-content .bulb-g {
       width: 16px;
       height: 16px;
       display: block;
       background-size: 100% 100%;
-      background-image: url(/assets/img/bulb-g.svg);
+      background-image: url(/wemote.me/assets/img/bulb-g.svg);
       background-repeat: no-repeat;
       margin-left: 8px;
       margin-top: 2px; }
@@ -407,7 +407,7 @@ footer {
       height: 16px;
       display: block;
       background-size: 100% 100%;
-      background-image: url(/assets/img/bulb-y.svg);
+      background-image: url(/wemote.me/assets/img/bulb-y.svg);
       background-repeat: no-repeat;
       margin-left: 8px;
       margin-top: 2px; }
@@ -416,7 +416,7 @@ footer {
       height: 16px;
       display: block;
       background-size: 100% 100%;
-      background-image: url(/assets/img/bulb-r.svg);
+      background-image: url(/wemote.me/assets/img/bulb-r.svg);
       background-repeat: no-repeat;
       margin-left: 8px;
       margin-top: 2px; }
